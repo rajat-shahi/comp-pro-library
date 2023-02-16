@@ -1,0 +1,1 @@
+It contains the templates, completions file and snippets for sublime text.
