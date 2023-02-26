@@ -2,36 +2,36 @@
     "scope":"source.c++",
     "completions":
     [
-        { "trigger": "repi", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\t$0\n}"},
-        { "trigger": "repj", "contents": "for(auto ${1:j} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\t$0\n}"},
-        { "trigger": "repk", "contents": "for(auto ${1:k} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\t$0\n}"},
+        { "trigger": "repi", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++}) {\n\t$0\n}"},
+        { "trigger": "repj", "contents": "for(auto ${1:j} = ${2:0}; $1 < ${3:n}; ${4:$1++}) {\n\t$0\n}"},
+        { "trigger": "repk", "contents": "for(auto ${1:k} = ${2:0}; $1 < ${3:n}; ${4:$1++}) {\n\t$0\n}"},
 
-        { "trigger": "repei", "contents": "for(auto ${1:i} = ${2:0}; $1 <= ${3:n}; ${4:$1++})\n{\n\t$0\n}"},
-        { "trigger": "repej", "contents": "for(auto ${1:j} = ${2:0}; $1 <= ${3:n}; ${4:$1++})\n{\n\t$0\n}"},
-        { "trigger": "repek", "contents": "for(auto ${1:k} = ${2:0}; $1 <= ${3:n}; ${4:$1++})\n{\n\t$0\n}"},
+        { "trigger": "repei", "contents": "for(auto ${1:i} = ${2:0}; $1 <= ${3:n}; ${4:$1++}) {\n\t$0\n}"},
+        { "trigger": "repej", "contents": "for(auto ${1:j} = ${2:0}; $1 <= ${3:n}; ${4:$1++}){\n\t$0\n}"},
+        { "trigger": "repek", "contents": "for(auto ${1:k} = ${2:0}; $1 <= ${3:n}; ${4:$1++}){\n\t$0\n}"},
         
         
         
-        { "trigger": "peri", "contents": "for(auto ${1:i} = ${2:n - 1}; $1 >= ${3:0}; ${4:-- $1})\n{\n\t$0\n}"},
-        { "trigger": "perj", "contents": "for(auto ${1:j} = ${2:n - 1}; $1 >= ${3:0}; ${4:-- $1})\n{\n\t$0\n}"},
-        { "trigger": "perk", "contents": "for(auto ${1:k} = ${2:n - 1}; $1 >= ${3:0}; ${4:-- $1})\n{\n\t$0\n}"},
+        { "trigger": "peri", "contents": "for(auto ${1:i} = ${2:n - 1}; $1 >= ${3:0}; ${4:-- $1}){\n\t$0\n}"},
+        { "trigger": "perj", "contents": "for(auto ${1:j} = ${2:n - 1}; $1 >= ${3:0}; ${4:-- $1}){\n\t$0\n}"},
+        { "trigger": "perk", "contents": "for(auto ${1:k} = ${2:n - 1}; $1 >= ${3:0}; ${4:-- $1}){\n\t$0\n}"},
         
         
-        { "trigger": "perei", "contents": "for(auto ${1:i} = ${2:n }; $1 >= ${3:0}; ${4:-- $1})\n{\n\t$0\n}"},
-        { "trigger": "perej", "contents": "for(auto ${1:j} = ${2:n }; $1 >= ${3:0}; ${4:-- $1})\n{\n\t$0\n}"},
-        { "trigger": "perek", "contents": "for(auto ${1:k} = ${2:n }; $1 >= ${3:0}; ${4:-- $1})\n{\n\t$0\n}"},
+        { "trigger": "perei", "contents": "for(auto ${1:i} = ${2:n }; $1 >= ${3:0}; ${4:-- $1}){\n\t$0\n}"},
+        { "trigger": "perej", "contents": "for(auto ${1:j} = ${2:n }; $1 >= ${3:0}; ${4:-- $1}){\n\t$0\n}"},
+        { "trigger": "perek", "contents": "for(auto ${1:k} = ${2:n }; $1 >= ${3:0}; ${4:-- $1}){\n\t$0\n}"},
         
-        {"trigger": "testcases","contents": "int _t;\ncin >> _t;\n\nwhile(_t--)\n{\n\t$0\n}"},
+        {"trigger": "testcases","contents": "int _t;\ncin >> _t;\n\nwhile(_t--){\n\t$0\n}"},
 
 
-        { "trigger": "readarray", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\tcin >> $0[i] ;\n}"},
-        { "trigger": "readpairs", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\tcin >> $0[i].first >> $0[i].second ;\n}"},
-        { "trigger": "readgrid", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\tfor(auto ${5:j} = ${6:0}; $5 < ${7:m}; ${8:$5++})\n\t{\n\t\tcin >> $0[i][j] ;\n\t}\n}"},
+        { "trigger": "readarray", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++}){\n\tcin >> $0[i] ;\n}"},
+        { "trigger": "readpairs", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++}){\n\tcin >> $0[i].first >> $0[i].second ;\n}"},
+        { "trigger": "readgrid", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++}){\n\tfor(auto ${5:j} = ${6:0}; $5 < ${7:m}; ${8:$5++})\n\t{\n\t\tcin >> $0[i][j] ;\n\t}\n}"},
         { "trigger": "readpair", "contents": "cin >> $0.first >> $0.second ;"},
         { "trigger": "writepair", "contents": "cout << $0.first << $0.second ;"},
-        { "trigger": "writearray", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\tcout << $5[i] << $6 << endl;\n}"},
-        { "trigger": "writepairs", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\tcout << $5[i].first << $6 << $5[i].second << endl;\n}"},
-        { "trigger": "writegrid", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++})\n{\n\tfor(auto ${5:j} = ${6:0}; $5 < ${7:m}; ${8:$5++})\n\t{\n\t\tcout << $0[i][j] ;\n\t}\n\tcout << endl;\n}"},
+        { "trigger": "writearray", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++}){\n\tcout << $5[i] << $6 << endl;\n}"},
+        { "trigger": "writepairs", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++}){\n\tcout << $5[i].first << $6 << $5[i].second << endl;\n}"},
+        { "trigger": "writegrid", "contents": "for(auto ${1:i} = ${2:0}; $1 < ${3:n}; ${4:$1++}){\n\tfor(auto ${5:j} = ${6:0}; $5 < ${7:m}; ${8:$5++})\n\t{\n\t\tcout << $0[i][j] ;\n\t}\n\tcout << endl;\n}"},
 
         { "trigger": "foreach", "contents": "for\n(auto&& $1: $2){\n\t$0\n}"},
 
