@@ -1,4 +1,3 @@
-// Baby tell me, tell me !! HOOOOhoooo Do you love, do you love now ???
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -17,8 +16,10 @@ const int mod = 1e9 + 7;
 using ll = long long;
 using vll = vector<long long>;
 using vi = vector<int>;
-using pll = pair<long long, long long>;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
 #define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
 #define sz(x) (int) x.size()
 #define pb push_back
 #define ff first
@@ -29,11 +30,10 @@ const long long INF = 1001001001001001001ll;
 
 
 
+int main() {
 
-int main()
-{
-	ios::sync_with_stdio(false);
-	cin.tie(0);
+	cin.tie(0)->sync_with_stdio(0);
+	cin.exceptions(ios::badbit | ios::failbit);
 
 	
 
